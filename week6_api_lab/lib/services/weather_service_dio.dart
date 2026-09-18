@@ -14,7 +14,7 @@ Future<Weather> fetchWeatherWithDio(String city) async {
       'https://api.openweathermap.org/data/2.5/weather',
       queryParameters: {
         'q': city,
-        'appid': '5f5d8950d227553ae6cdc0872e5ba550',
+        'appid': 'your_api_key_here', // Replace with your actual
         'units': 'metric',
       },
     );
